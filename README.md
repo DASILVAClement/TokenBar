@@ -35,18 +35,18 @@ A macOS menubar app that displays your Claude Code token usage in real time.
 ### Homebrew (recommended)
 
 ```bash
-brew tap clemships/tokenbar
+brew tap dasilvaclement/tokenbar
 brew install --cask tokenbar
 ```
 
 ### Manual
 
-Download `TokenBar-v1.0.0.zip` from the [latest release](https://github.com/ClemShips/TokenBar/releases/latest), unzip, and drag `TokenBar.app` to `/Applications`.
+Download `TokenBar-v1.0.0.zip` from the [latest release](https://github.com/DASILVAClement/TokenBar/releases/latest), unzip, and drag `TokenBar.app` to `/Applications`.
 
 ### From source
 
 ```bash
-git clone https://github.com/ClemShips/TokenBar.git
+git clone https://github.com/DASILVAClement/TokenBar.git
 cd TokenBar
 pip install pyobjc-framework-WebKit py2app
 ```
