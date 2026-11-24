@@ -3,7 +3,7 @@
 > Dernière mise à jour : 2026-07-18 · Mac
 
 ## Le projet en 2 phrases
-App macOS de barre de menus qui affiche en temps réel la consommation de tokens Claude Code. Repo GitHub : `ClemShips/TokenBar`.
+App macOS de barre de menus qui affiche en temps réel la consommation de tokens Claude Code. Repo GitHub : `DASILVAClement/TokenBar` (ClemShips jusqu'au 2026-11-24).
 
 ## État actuel
 - ✅ Fait récemment : tap Homebrew, auto-update et flux de mise à jour in-app, i18n FR/EN, overlay À propos (mars 2026)

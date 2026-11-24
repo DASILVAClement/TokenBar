@@ -200,8 +200,8 @@ MENU_STRINGS = {
 }
 
 APP_VERSION          = "1.0.0"
-GITHUB_URL           = "https://github.com/ClemShips/TokenBar"
-GITHUB_API_LATEST    = "https://api.github.com/repos/ClemShips/TokenBar/releases/latest"
+GITHUB_URL           = "https://github.com/DASILVAClement/TokenBar"
+GITHUB_API_LATEST    = "https://api.github.com/repos/DASILVAClement/TokenBar/releases/latest"
 UPDATE_CHECK_HOURS   = 24
 
 
@@ -971,7 +971,7 @@ class AppDelegate(NSObject):
             self._run_js_main("if(window.updateDone) window.updateDone(false, 'Homebrew n\\'est pas installé')")
             return
         try:
-            subprocess.run([brew, "tap", "clemships/tokenbar"], capture_output=True, timeout=30)
+            subprocess.run([brew, "tap", "dasilvaclement/tokenbar"], capture_output=True, timeout=30)
             result = subprocess.run(
                 [brew, "upgrade", "--cask", "tokenbar"],
                 capture_output=True, text=True, timeout=120
